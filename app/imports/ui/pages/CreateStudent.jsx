@@ -53,6 +53,7 @@ class CreateStudent extends React.Component {
               <Form.Group widths={'equal'}>
                 <TextField name='name' showInlineError={true} placeholder={'Your name'}/>
                 <TextField name='email' showInlineError={true} placeholder={'Your email'}/>
+                <SelectField name='instructor' showInlineError={true} />
               </Form.Group>
               <LongTextField name='bio' showInlineError={true} placeholder={'A bit about you'}/>
               <Form.Group widths={'equal'}>
